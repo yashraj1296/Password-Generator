@@ -30,12 +30,10 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(
-    231deg,
-    rgba(22, 6, 40, 1) 0%,
-    rgba(52, 28, 79, 1) 50%,
-    rgba(88, 7, 125, 1) 100%
-  );
+  background: linear-gradient(231deg,
+      rgba(22, 6, 40, 1) 0%,
+      rgba(52, 28, 79, 1) 50%,
+      rgba(88, 7, 125, 1) 100%);
 }
 
 .container {
@@ -92,7 +90,7 @@ h1 {
   color: var(--cyan);
 }
 
-.copy-btn span{
+.copy-btn span {
   font-size: 1rem;
   font-weight: 600;
   position: absolute;
@@ -107,7 +105,7 @@ h1 {
   transition: all 250ms ease-in-out;
 }
 
-.copy-btn span.active{
+.copy-btn span.active {
   opacity: 1;
   transform: scale(1);
 }
@@ -251,25 +249,57 @@ button.generateButton {
 
 
 /* footer section */
-footer p{
+footer p {
   color: var(--white);
 }
 
-footer span:nth-child(1){
+footer span:nth-child(1) {
   color: red;
 }
 
-footer span a{
+footer span a {
   color: white;
   text-decoration: none;
 }
 
-footer span:nth-child(2){
+footer span:nth-child(2) {
   font-weight: 700;
 }
 
+@media(max-width:770px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .display {
+    font-size: 1rem;
+    /* padding-right: 5.25rem; */
+    padding-right: 0;
+  }
+
+  .display:focus {
+    outline: none;
+  }
+
+  .display-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.35rem 3% 0 2%;
+    align-items: center;
+  }
 
 
+  .display::placeholder {
+    font-size: 1.2rem;
+    line-height: 12px;
+    left: 1.5rem;
+  }
 
+  p {
+    font-size: 1.2rem !important;
+  }
 
-
+  .Checkbox label{
+    font-size: 1rem !important;
+  }
+}

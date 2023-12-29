@@ -16,7 +16,6 @@ let Password ="";
 let Password_lenght=10;
 let checkCount = 0;
 SetPass_lenght()
-//Set circle color to grey
 
 //Set password lenght
 function SetPass_lenght(){
