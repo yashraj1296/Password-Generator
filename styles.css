@@ -5,6 +5,10 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: "League Spartan", sans-serif;
+  background: linear-gradient(231deg,
+      rgba(22, 6, 40, 1) 0%,
+      rgba(52, 28, 79, 1) 50%,
+      rgba(88, 7, 125, 1) 100%);
 }
 
 :root {
@@ -29,10 +33,10 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(231deg,
+  /* background: linear-gradient(231deg,
       rgba(22, 6, 40, 1) 0%,
       rgba(52, 28, 79, 1) 50%,
-      rgba(88, 7, 125, 1) 100%);
+      rgba(88, 7, 125, 1) 100%); */
 }
 
 .container {
@@ -298,7 +302,22 @@ footer span:nth-child(2) {
     font-size: 1.2rem !important;
   }
 
-  .Checkbox label{
+  .Checkbox label {
     font-size: 1rem !important;
+  }
+}
+
+@media (max-width:450px) {
+
+  .strength-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+
+
+
+  button.generateButton {
+    font-size: 1rem;
   }
 }

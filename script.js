@@ -126,7 +126,7 @@ async function Copy_Content(){
 
     setTimeout(()=>{
         Copy_Msg.classList.remove("active")
-    },2000);
+    },600);
 }
 
 Input_slider.addEventListener('input',function(e){
