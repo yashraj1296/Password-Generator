@@ -1,4 +1,4 @@
-# Password Genrator
+# Password Generator
 This Password Generator is a simple tool to help users create strong and secure passwords for various online accounts. It can be used to generate random passwords with a combination of letters (uppercase and lowercase), numbers, and special characters. The goal is to enhance the security of user accounts by providing a reliable method for generating complex passwords.
 
 # Features
